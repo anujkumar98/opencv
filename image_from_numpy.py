@@ -10,7 +10,7 @@ import cv2
 import numpy as np
 #creating a numpy array
 img=np.zeros((3,3),dtype=np.uint8)
-print(img)
+#print(img)
 #converting it to BGR format.
 img=cv2.cvtColor(img,cv2.COLOR_GRAY2BGR)
-print(img)
+#print(img)
